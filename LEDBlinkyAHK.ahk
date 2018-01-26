@@ -2,7 +2,7 @@
 #Persistent
 SendMode Input
 
-iniFile=%A_ScriptDir%\LEDBlinky.ini
+iniFile=%A_ScriptDir%\LEDBlinkyAHK.ini
 
 IfNotExist, %iniFile% 
     Throw ("LEDBlinky ini file not found: " . iniFile . ".")
